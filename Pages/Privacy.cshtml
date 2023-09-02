@@ -1,0 +1,48 @@
+﻿
+@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+
+<h1 id="privacy-title">@ViewData["Title"]</h1>
+
+<p id="privacy-description">Use this page to detail your site's privacy policy.</p>
+<p>Use this page to detail your site's privacy policy.</p>
+<div class="container">
+<img src="Images/hope.jpg" >
+</div>
+
+
+<style>
+    /* Styling for the h1 title */
+    #privacy-title {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        
+    }
+
+    /* Styling for the description paragraph */
+    #privacy-description {
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-display:revert-layer;
+        color:brown;
+    }
+
+    /* Optional: Style for the entire page */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: grid;
+        place-item: center; /* Horizontally and vertically center */
+        height: 100vh; /* Set an appropriate height or adjust as needed */
+    }
+
+</style>

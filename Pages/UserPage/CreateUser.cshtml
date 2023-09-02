@@ -1,0 +1,26 @@
+﻿@page 
+@model WebApplication2.Pages.UserPage.CreateUserModel
+@{
+}
+@*we use form to be called by using method post. 
+this is html and it shows your pages design
+*@
+<form method="post">
+
+    <div>
+    <div>
+       <label asp-for="@Model.User.Name"> Enter Your Name</label>
+       <input  asp-for="@Model.User.Name"/>
+    </div>
+    <div>
+       <label asp-for="@Model.User.Name"> Enter Your Age</label>
+       <input  asp-for="@Model.User.Age"/>
+    </div>
+
+        <div>
+            <input type="submit" value="Create user" />
+        </div>
+
+</div>
+
+</form>
